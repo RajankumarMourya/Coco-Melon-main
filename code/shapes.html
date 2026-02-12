@@ -236,7 +236,7 @@
             document.getElementById("popup-text").innerText = shapes;
             document.getElementById("popup").style.display = "flex";
 
-            let audio = new Audio("../shapesAudio/"+shapes.toLowerCase() + ".mp3");
+            let audio = new Audio("../shapesAudio/"+shapes + ".mp3");
             audio.play();
         }
         function closePopup() {
